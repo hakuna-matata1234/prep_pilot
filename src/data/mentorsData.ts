@@ -1,0 +1,72 @@
+import { MentorProfile } from '../types';
+
+export const MENTORS_SEED: MentorProfile[] = [
+  {
+    id: 'mentor-1',
+    name: 'Col. Rajesh Verma (Retd.)',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&auto=format&fit=crop&q=80',
+    title: 'Ex-Senior Interviewing Officer (19 SSB Allahabad)',
+    streamId: 'upsc_nda',
+    experienceYears: 24,
+    organization: 'Indian Army / SSB Mentorship Council',
+    languages: ['English', 'Hindi'],
+    rating: 4.96,
+    reviewsCount: 382,
+    bio: 'Guided over 750+ recommended candidates into NDA, IMA, OTA & AFA. Specializes in Personal Interview psychology, identifying OLQs, handling stress questions, and DAF cross-examination.',
+    pricePerSession: 'Free (Demo Pass)',
+    isApproved: true,
+    availableDays: ['Monday', 'Wednesday', 'Saturday', 'Sunday'],
+    slots: ['10:00 AM - 10:45 AM', '03:00 PM - 03:45 PM', '06:00 PM - 06:45 PM']
+  },
+  {
+    id: 'mentor-2',
+    name: 'Ar. Ananya Sen',
+    avatar: 'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=300&auto=format&fit=crop&q=80',
+    title: 'Principal Architect & CEPT University Visiting Faculty',
+    streamId: 'architecture',
+    experienceYears: 12,
+    organization: 'Studio Vistara / CEPT Alum',
+    languages: ['English', 'Hindi', 'Bengali'],
+    rating: 4.92,
+    reviewsCount: 194,
+    bio: 'NATA & B.Arch portfolio specialist. Trained candidates accepted into SPA Delhi, CEPT, and Bartlett UK. Expert in bioclimatic critique, concept sketches, and building material rationale.',
+    pricePerSession: 'Free (Demo Pass)',
+    isApproved: true,
+    availableDays: ['Tuesday', 'Thursday', 'Saturday'],
+    slots: ['11:30 AM - 12:15 PM', '04:00 PM - 04:45 PM', '07:00 PM - 07:45 PM']
+  },
+  {
+    id: 'mentor-3',
+    name: 'Vikramaditya Roy',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=300&auto=format&fit=crop&q=80',
+    title: 'Staff Software Engineer @ Google (Ex-Uber, IIT Delhi)',
+    streamId: 'cse',
+    experienceYears: 9,
+    organization: 'Google Mountain View & Bangalore',
+    languages: ['English', 'Hindi'],
+    rating: 4.98,
+    reviewsCount: 520,
+    bio: 'Conducted 300+ technical interviews at Google and Uber. Specializes in distributed systems design, high-concurrency architecture, and DSA problem-solving communication.',
+    pricePerSession: 'Free (Demo Pass)',
+    isApproved: true,
+    availableDays: ['Friday', 'Saturday', 'Sunday'],
+    slots: ['09:00 AM - 09:45 AM', '02:00 PM - 02:45 PM', '08:00 PM - 08:45 PM']
+  },
+  {
+    id: 'mentor-4',
+    name: 'Dr. Smriti Kulkarni, IAS (Retd.)',
+    avatar: 'https://images.unsplash.com/photo-1580489944761-15a19d654956?w=300&auto=format&fit=crop&q=80',
+    title: 'Former Additional Chief Secretary & UPSC Interview Board Member',
+    streamId: 'upsc_nda',
+    experienceYears: 32,
+    organization: 'National Governance Institute',
+    languages: ['English', 'Hindi', 'Marathi'],
+    rating: 4.99,
+    reviewsCount: 290,
+    bio: 'Served as UPSC Personality Test Board member. Mentors civil services aspirants on ethical decision making, state policy articulation, and handling controversial board inquiries.',
+    pricePerSession: 'Free (Demo Pass)',
+    isApproved: true,
+    availableDays: ['Wednesday', 'Friday', 'Sunday'],
+    slots: ['04:00 PM - 04:45 PM', '05:30 PM - 06:15 PM']
+  }
+];
